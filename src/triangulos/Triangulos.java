@@ -20,7 +20,7 @@ public class Triangulos {
 		
 		if (ladoA + ladoB < ladoC || ladoB + ladoC < ladoA || ladoA + ladoC < ladoB){
 			System.out.println("As medidas inseridas não caracterizam um triangulo");
-		} else if (ladoA == ladoB && ladoB == ladoC) {
+		} else if (ladoA == ladoB && ladoB == ladoC && ladoC == ladoA) {
 			System.out.println("Os números representam um triangulo equilátero!");
 		} else if (ladoA == ladoB || ladoB == ladoC || ladoA == ladoC) {
 			System.out.println("Os números representam um triangulo isósceles!");
